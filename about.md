@@ -13,5 +13,5 @@ You can cite the project as:
 
 ## Contact us
 
-- Email: [{{ site.email }}](mailto:{{ site.email }})
+- Email: [{{ site.email }}](mailto: {{ site.email }})
 - GitHub: [{{ site.github }}]({{ site.github }})
