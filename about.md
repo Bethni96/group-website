@@ -9,6 +9,13 @@ title: About
 ## Funders
 We are greatefully acknowledge funding from the XYZ Founding Council, under grant number 'abc'
 
+## Team
+
+The following members are members of the research team
+{% for team_member in site.team_members %}
+- {{ team_member.name }}, role: {{ team_member.role }}
+- {% endfor %}
+- 
 ## Cite us
 You can cite the project as:
 
