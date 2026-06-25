@@ -6,6 +6,9 @@ title: Building Websites in GitHub
 
 ## Description
 {{ site.description }}
+{% assign lead=site.team_members | where: "role", "project lead"| first %}
+The project is led by {{ lead.name }}
+
 
 More details about the project available from the [About page](about)
 
