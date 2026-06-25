@@ -20,4 +20,3 @@ You can cite the project as:
 - Email: [{{ site.email }}](mailto: {{ site.email }})
 - GitHub: [{{ site.github }}]({{ site.github }})
 
-{% include footer.html %}
